@@ -1,79 +1,79 @@
 export const listaAparelhos = [
     {
         id:1,
-        modelo:'iPhone 11 Apple 64GB Preto 6,1” 12MP iOS',
+        modelo:'Iphone 11 pro',
         marca: 'Apple',
-        descricao: 'Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla. Tire fotos incríveis com pouca luz usando o modo Noite. Veja cores fiéis em fotos, vídeos e jogos na tela Liquid Retina de 6.1 polegadas***. Leve o desempenho sem precedentes do chip A13 Bionic para seus games, realidade aumentada e fotografia. Faça muito e recarregue pouco com a bateria para o dia todo**. E conte com resistência à água de até dois metros por até 30 minutos*. ',
+        descricao: 'O Apple iPhone 11 Pro é um smartphone iOS avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 5.8 polegadas com uma resolução de 2436x1125 pixels. As funcionalidades oferecidas pelo Apple iPhone 11 Pro são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.Respeitável a câmera de 12 megapixels que permite ao Apple iPhone 11 Pro tirar fotos com uma resolução de 4000x3000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 8.1 milímetros, o que torna o Apple iPhone 11 Pro realmente interessante.',
         preco: '2.879,10',
         imagem: '/public/image/phone_iphone11.jpg'
 
     },
     {
         id:2,
-        modelo:'iPhone 13 128GB Meia-noite Tela 6,1” 12MP',
+        modelo:'iPhone 13',
         marca: 'Apple',
-        descricao: ' sistema de câmera dupla mais avançado em um iPhone. Chip A15 Bionic com velocidade impressionante. Um grande salto em bateria. Projetado para durar. 5G ultrarrápido*. E tela Super Retina XDR mais brilhante.',
+        descricao: 'O Apple iPhone 13 é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 6.1 polegadas com uma resolução de 2532x1170 pixel. As funcionalidades oferecidas pelo Apple iPhone 13 são muitas e inovadoras. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.Câmera discreta de 12 megapixel mas que permite ao Apple iPhone 13 tirar fotos de boa qualidade com uma resolução de 4000x3000 pixel e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. A espessura de 7.7mm torna o Apple iPhone 13 um dos telefones mais completos e finos.',
         preco: '4.099,00',
         imagem: '/public/image/phone_iphone13.jpg'
 
     },
     {
         id:3,
-        modelo:'Samsung Galaxy S23 5G 128GB Tela 6.1 - 8GB RAM  - Creme',
+        modelo:'Samsung Galaxy S23',
         marca: 'Samsung',
-        descricao: 'O Galaxy S23 5G da Samsung foi projetado para que o usuário tenha uma experiência premium. Ele oferece ferramentas com a mais alta tecnologia que o diferencia de qualquer outro aparelho, principalmente quando se fala em fotografia. Seu conjunto de câmeras traz um sensor de alta resolução e pixels inteligentes que absorvem luz para tirar fotos nítidas, a qualquer hora.Ele vem com o processador Snapdragon 8 Gen 2 for Galaxy, que garante sua alta capacidade de processamento. De cara você vai perceber a diferença nos jogos, com mais poder de processamento e com capacidade de reproduzir gráficos em maior qualidade.',
+        descricao: 'O Samsung Galaxy S23 é um smartphone Android com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização, representando um dos melhores dispositivos móveis já feitos. A tela de 6.1 polegadas coloca esse Samsung no topo de sua categoria. A resolução também é alta: 2340x1080 pixel. As funcionalidades oferecidas pelo Samsung Galaxy S23 são muitas e todas top de linha. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência, e bluetooth. Enfatizamos a excelente memória interna de 256 GB mas sem a possibilidade de expansão.A excelência deste Samsung Galaxy S23 é completada por uma câmera de 50 megapixels que permite tirar fotos fantásticas com uma resolução de 8165x6124 pixels e gravar vídeos em 8K a espantosa resolução de 7680x4320 pixels. A espessura de apenas 7.6 milímetros torna o Samsung Galaxy S23 um dos telefones mais finos que existem.',
         preco: '3.899,00',
         imagem: '/public/image/phone_samsungs23.jpg'
 
     },
     {
         id:4,
-        modelo:'Smartphone Xiaomi Redmi Note 12 4g 128gb 4gb Ram Onyx Gray',
+        modelo:'Xioami Redmi 12',
         marca: 'Xiaomi',
-        descricao: 'O Redmi Note 12 É Um Smartphone Android Avançado E Abrangente Em Todos Os Pontos De Vista Com Algumas Características Excelentes. Tem Uma Grande Tela De 6.67 Polegadas Com Uma Resolução De 2400x1080 Pixels. As Funcionalidades Oferecidas Pelo Redmi Note 12 São Muitas E Inovadoras. Enfatizamos A Excelente Memória Interna De 128 Gb Com A Possibilidade De Expansão. O Redmi Note 12 É Um Produto Com Poucos Concorrentes Em Termos De Multimídia Graças À Câmera De 48 Megapixels Que Permite Ao Redmi Note 12 Tirar Fotos Fantásticas Com Uma Resolução De 8000x6000 Pixels E Gravar Vídeos Em Alta Definição (full Hd) Com Uma Resolução De 1920x1080 Pixels. Muito Fino, 8 Milímetros, O Que Torna O Redmi Note 12 Realmente Interessante. Marca: Xiaomi Modelo: 2x 2.0 Ghz Cortex-a78 + 6x 1.8 Ghz Cortex-a55 Chip: Dual Sim Armazenamento: 128gb Memória Ram: 4gb Sistema Operacional: Android 12 Miui 13 Cpu (processador): 2x 2.0 Ghz Cortex-a78 + 6x 1.8 Ghz Cortex-a55 Gpu (placa Gráfica): Adreno 619 Chipset: Snapdragon 4 Gen 1 Qualcomm Sm4375 Tela: 6.67" Amoled Resolução: 1800 X 2400 Pixel Câmera Frontal: 13mp Câmera Traseira: 48 Mp + 8 Mp + 2 Mp Vídeo: Full Hd Conexões: Wi-fi, Bluetooth, Irda, Usb E Gps Sensores: Acelerômetro, Proximidade, Giroscópio, Bússola E Impressão Digital Funções: Vibração, Viva Voz, Wi-fi Direct, Wi-fi Hotspot E Usb Otg Bateria: 5000mah Lipo',
+        descricao: 'O Redmi 12 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.79 polegadas com uma resolução de 2460x1080 pixel. Sobre as características deste Redmi 12 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB com a possibilidade de expansão.O Redmi 12 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 50 megapixels que permite ao Redmi 12 tirar fotos fantásticas com uma resolução de 8165x6124 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 8.2 milímetros, o que torna o Redmi 12 realmente interessante.',
         preco: '1.048,00',
         imagem: '/public/image/phone_xioamiredmi12.jpg'
 
     },
     {
         id:5,
-        modelo:'Motorola Moto G73 5G Azul 128GB, 8GB RAM',
+        modelo:'Motorola G73',
         marca: 'Motorola',
-        descricao: 'Para quem busca um aparelho que oferece recursos essenciais para o dia a dia, bom desempenho e bateria potente que aguente seu ritmo, a Motorola traz o moto g73 5G.Embarcado com tecnologia 5G, que proporciona altíssima velocidade na conexão, para garantir que você faça tudo que quiser, e entregando mensagens mais rápidas, maior taxa de dados e menos interferência, reprodução de vídeos sem atrasos e com qualidade e rapidez.',
+        descricao: 'O Motorola Moto G73 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.5 polegadas com uma resolução de 2400x1080 pixel. Sobre as características deste Motorola Moto G73 na verdade não falta nada. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB com a possibilidade de expansão.O Motorola Moto G73 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 50 megapixels que permite ao Motorola Moto G73 tirar fotos fantásticas com uma resolução de 8165x6124 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 8.3 milímetros, o que torna o Motorola Moto G73 realmente interessante.',
         preco: '1.499,00',
         imagem: '/public/image/phone_motorolag73.jpg'
 
     },
     {
         id:6,
-        modelo:'Apple Ipad 10ª Geração, 64GB WIFI, Rosa',
+        modelo:'Ipad 10 - Rosa',
         marca: 'Apple',
-        descricao: 'Este produto combina a potência e a capacidade de um computador com a versatilidade e facilidade de uso que somente um ipad pode oferecer. Realizar várias tarefas de uma só vez, como editar documentos enquanto procura informação na internet ou tirar uma selfie, é muito fácil. Como se isso não bastasse, também oferece a possibilidade de baixar desde o app store, centenas de aplicativos criados para pintar, desenhar, ouvir música e muito mais!',
+        descricao: 'O Apple iPad 10 é um tablet Touchscreen completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 10.9 polegadas, que coloca esse Apple no topo de sua categoria. Além disso a resolução é das mais altas atualmente em circulação: 2360x1640 pixel. Quanto às funções, no Apple iPad 10 realmente não falta nada. Começando pelo conectividade Wi-fi e GPS. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA. Enfatizamos a boa memória interna de 256 GB mas sem a possibilidade de expansão.Este Apple iPad 10 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Apple iPad 10 tirar fotos fantásticas com uma resolução de 4000x3000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Uma pena a falta de flash. Muito fino, 7 milímetros, o que torna o Apple iPad 10 realmente interessante.',
         preco: '3.282,89',
         imagem: '/public/image/tablet_appleipad10rosa.jpg'
 
     },
     {
         id:7,
-        modelo:'Tablet Samsung Galaxy Tab S6 Lite com Caneta 10,4" 64GB 4GB RAM Android 13 Octa-Core Wi-Fi',
+        modelo:'Tablet Samsung Tab S6',
         marca: 'Samsung',
-        descricao: 'Tá pensando em contar com um aparelho versátil e que pode te ajudar em várias tarefas do dia? Então você precisa conhecer esse Tablet da Samsung. Te apresento o Galaxy Tab S6 Lite. Com esse aparelho de tablet você pode ter uma ajudinha pra organizar as tarefas do dia, ler, estudar, assistir aulas e filmes ou até se divertir no tempo livre. Quanta coisa, hein? E olha só que além de um Tablet Samsung poderoso, você ainda conta com acessórios fundamentais como a Capa Protetora e a Caneta S-pen que deixa a navegação no aparelho muito mais fluida. Mas se você quer mesmo assistir conteúdos, navegar na internet ou ver aulas a Tela Imersiva de 10,4" vai resolver seus problemas. Com muitas cores e nitidez absurda você não perde nenhum detalhe.',
+        descricao: 'O Samsung Galaxy Tab S6 é um tablet Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 10.5 polegadas e uma resolução de 2560x1600 pixels que é uma das mais altas atualmente em circulação. Sobre as características deste Samsung Galaxy Tab S6 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB com a possibilidade de expansão.O Samsung Galaxy Tab S6 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 13 megapixels que permite ao Samsung Galaxy Tab S6 tirar fotos fantásticas com uma resolução de 4163x3122 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 5.7 milímetros, o que torna o Samsung Galaxy Tab S6 realmente interessante.',
         preco: '1.952,07',
         imagem: '/public/image/tablet_samsungs6.png'
 
     },
     {
         id:8,
-        modelo:'Apple iPad Pro 11” 4ª Geração Wi-Fi',
+        modelo:'IPad Pro 11',
         marca: 'Apple',
-        descricao: 'Com desempenho impressionante, conexões sem fio ultrarrápidas, Apple Pencil com uma outra dimensão de funcionalidades e os novos recursos poderosos de produtividade e colaboração do iPadOS 16. O iPad Pro é o máximo em iPad',
+        descricao: 'O Apple iPad Pro 11 é um tablet Touchscreen mediano, ideal para quem não tem muitas exigências mas não abre mão de um bom display touchscreen. As funções oferecidas pelo Apple iPad Pro 11 são mais ou menos as mesmas oferecidas em outros dispositivos avançados, começando com a conectividade Wi-fi e GPS. Tem leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 512 GB mas sem a possibilidade de expansão. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA.Surpreendente é sua tela Touchscreen de 11 polegadas, que coloca esse Apple no topo de sua categoria. Além disso a resolução é das mais altas atualmente em circulação: 2388x1668 pixel. O Apple iPad Pro 11 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Apple iPad Pro 11 tirar fotos fantásticas com uma resolução de 4000x3000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 5.9 milímetros, o que torna o Apple iPad Pro 11 realmente bom para o transporte.',
         preco: '7.424,00',
         imagem: '/public/image/tablet_appleipad11.jpg'
 
     },
     {
         id:9,
-        modelo:'Tablet Xiaomi Redmi Pad 10.61 6gb 128gb Wi-fi Mint Green',
+        modelo:'Tablet Xiaomi Redmi Pad',
         marca: 'Xiaomi',
         descricao: 'Tablet Xiaomi Redmi Pad 10.61" 6gb 128gb Wi-fi Mint Green tablet Redmi Pad 128gb 6gb Wifi Tela 10.6 Pol. O Tablet Redmi Pad Foi Projetado Para Apresentar Uma Tela De 10.6 Polegadas Com Resolução De 2000 X 1200 Pixels, Taxa De Atualização De 90hz E Densidade De 220 Ppi Para Uma Excelente Experiência De Visualização, Apresenta Câmera Traseira De 8 Mp E Câmera Frontal 8 Mp Para Captura De Imagens E Selfies Em Ótima Qualidade, É Equipado Com Processador Mediatek Helio G99 / Octa-core, O Que Permite Oferecer Uma Performance De Excelente Desempenho Na Execução De Tarefas E Aplicativos, Bem Como Dispõe Ainda De Conectividade Wifi E Bluetooth 5.3 Para Maior Desempenho E Estabilidade De Conexão, Além De Capacidade De Bateria De Até 8.000 Mah, Para Você Navegar Na Web Por Mais Tempo E Desfrutar De Todos Os Recursos Por Várias Horas Longe Da Tomada.',
         preco: '1.689,00',
@@ -82,9 +82,9 @@ export const listaAparelhos = [
     },
     {
         id:10,
-        modelo:'Tablet Vaio TL10 com Teclado 10,4" 128GB 8GB RAM Android 13 Octa-Core Wi-Fi 4G',
+        modelo:'Tablet Vaio TL10',
         marca: 'Vaio',
-        descricao: 'Para você que gosta de ter equipamentos de tecnologia disponíveis para trabalhar, estudar ou até mesmo, como passatempo navegando nas redes sociais e assistindo as séries favoritas, precisa conhecer o Tablet Vaio TL10 com teclado de conexão inteligente com capa magnética que facilita muito a forma de usá-lo. A qualidade e o design que você já conhece, de uma forma que você nunca viu. O Tablet VAIO TL10 foi desenvolvido para você produzir, aprender e se divertir em um dispositivo poderoso, para ir além do esperado',
+        descricao: 'O TL10 é um tablet da marca VAIO, que muitas pessoas podem conhecer pelos seus notebooks de alta qualidade. O modelo é produzido no Brasil pela Positivo e tem configurações bem interessantes para os padrões intermediários, disputando num segmento voraz dominado pela Samsung e sua linha Galaxy Tab A. O cérebro do tablet TL10 é o competente Unisoc T616, processador de oito núcleos rodando até 2 GHz. Ele trabalha com 8 GB de RAM LPDDR4X, uma das mais atuais, e 128 GB de armazenamento interno, expansíveis via microSD. Já a bateria é de 7.000 mAh e deve segurar todo o processamento e a tela 2K de 10,4 polegadas por bastante tempo. Para produtividade, o tablet VAIO vem com uma câmera frontal de 5 MP e uma traseira de 8 MP, ideal para videochamadas e reuniões, e uma capa com teclado magnético inclusa na embalagem, que basicamente transforma o tablet em um laptop. E é possível carregar o TL10 para qualquer lugar porque tem Wi-Fi e 4G integrados.',
         preco: '1.799,00',
         imagem: '/public/image/tablet_vaiotl.jpg'
 

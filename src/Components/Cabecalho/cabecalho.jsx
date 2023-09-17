@@ -1,11 +1,11 @@
 import Menu from "../Menu/menu";
 
 
-export default function Header() {
+export default function Cabecalho() {
 
     return (
       <header>
-        <div className='cabecalho-container'>
+        <div>
             <Menu/>
         </div>
       </header>
