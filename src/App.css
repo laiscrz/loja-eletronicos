@@ -1,42 +1,411 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #0b1e52;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 18px;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.card {
-  padding: 2em;
+footer {
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    background-color: #0b1e52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+
+    .redesSociais {
+        margin-left: 20px;
+    }
+
+    .icon {
+        font-size: 30px;
+        margin: 10px;
+    }
+
 }
 
-.read-the-docs {
-  color: #888;
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-right: 200px;
 }
+
+.promocao-container {
+    width: 100%;
+    background-image: url(../public/image/banner-home.jpg);
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+
+
+    #imagem-iphones {
+        width: 400px;
+        margin-left: 62%;
+        margin-top: -18%;
+    }
+
+
+}
+
+.info-promocoes {
+    margin-left: 10%;
+    margin-top: 10%;
+
+    & h1 {
+        font-size: 50px;
+    }
+
+    & h2 {
+        margin-top: -18px;
+        font-size: 80px;
+    }
+
+    & h3 {
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+
+}
+
+.oferta {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    ;
+    width: 20%;
+    height: 22%;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: -13%;
+
+    & h3 {
+        font-size: 20px;
+    }
+
+    & h1 {
+        font-size: 35px;
+    }
+}
+
+.promocao-container-dois {
+    width: 80%;
+    background-image: url(../public/image/banner-home-dois.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+
+
+    #imagem-tablet {
+        width: 400px;
+        margin-left: 30%;
+        margin-top: -32%;
+    }
+
+}
+
+.info-promocoes-dois {
+    width: 23%;
+    margin-left: 4%;
+
+    & h1 {
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.oferta-dois {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 22%;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+    margin-top: -20%;
+
+    & h3 {
+        font-size: 20px;
+    }
+
+    & h1 {
+        font-size: 45px;
+    }
+
+    & button {
+        width: 70%;
+        padding: 5%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid;
+        border-radius: 8px;
+    }
+}
+
+.titulo {
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.texto-saibamais {
+    margin-left: 2%;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#assunto {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    width: 30%;
+    height: 300px;
+    margin: 30px 10px;
+    border: 1px solid #000;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assunto {
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagem-assunto {
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+
+}
+
+.subtitulo {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: font-size 0.3s;
+
+}
+
+.subtitulo:hover {
+    color: #06075c;
+    font-size: 110%;
+}
+
+.itens {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    color: #2f4581;
+}
+
+.itens:hover {
+    color: #06075c;
+    cursor: pointer;
+}
+
+
+
+
+.visu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px auto;
+    width: 800px;
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 70px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    & .prod-principal {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: -50px;
+
+        & .image-detalhes {
+            margin-right: 50px;
+        }
+
+        & .image-detalhes img {
+            max-width: 500px;
+            height: 320px;
+            margin-right: 20px;
+            margin-bottom: 105px;
+        }
+
+        & .fixed-button {
+            position: absolute;
+            top: 200px;
+            left: 320px;
+
+            & .btnVoltar {
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    .prod-detalhes {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: right;
+
+        & h2 {
+            font-size: 30px;
+            margin-bottom: 50px;
+            margin-top: 40px;
+            color: #0b1e52;
+            text-align: center;
+            font-family: Impact, fantasy;
+        }
+
+        & h3 {
+            text-align: left;
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        & p.price {
+            font-size: 24px;
+            margin-bottom: 0;
+            font-weight: 900;
+            color: #162f74;
+        }
+
+        #btnCompra {
+            margin: 20px 50px;
+            width: 150px;
+            height: 40px;
+        }        
+
+    }
+
+    .prod-detalhes button,
+    .btnVoltar {
+        padding: 10px 20px;
+        background-color: #162f74;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .prod-vermais {
+        width: 100%;
+
+        & .accordion-title {
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            padding: 10px;
+            background-color: #162f74;
+            border: 1px solid #ddd;
+            color: #f8f8f8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        & .accordion-content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-top: none;
+            background-color: #fff;
+        }
+
+        .accordion-icon {
+            font-size: 20px;
+        }
+        
+        .active {
+            display: block;
+        }
+        
+        .accordion-title:hover {
+            background-color: #2f4581;
+        }
+        
+        
+        .accordion-icon::before {
+            content: "+";
+        }
+
+        .active .accordion-icon::before {
+            content: "-";
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

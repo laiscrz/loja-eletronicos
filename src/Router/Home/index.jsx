@@ -1,18 +1,34 @@
-import Carrossel from "../../Components/Carrossel/carrossel";
 
-export default function Home(){
-    const imagens = [
-        'public/image/promo_frete.png',
-        'public/image/promo_tablets.png',
-        'public/image/promo_iphones.png',
-    ];
-    return(
-        <main>
-            <div className="home-container">
-                <h1>Promos</h1>
+export default function Home() {
 
-                <Carrossel imagens={imagens} />
+    return (
+      <main>
+        <section>
+          <div className="promocao-container">
+            <div className="info-promocoes">
+              <h1>OFERTAS DE </h1>
+              <h2>Iphones</h2>
+              <h3>ADQUIRA O SEU!</h3>
             </div>
-        </main>
+            <div className="oferta">
+              <h3>COM ATÉ</h3>
+              <h1>30% OFF!</h1>
+            </div>
+              <img id="imagem-iphones" src="./image/iphones.png" alt="iphones" />
+          </div>
+          <div className="promocao-container-dois">
+            <div className="info-promocoes-dois">
+              <h1>ENCONTRE O TABLET PERFEITO PRA VOCÊ E MERGULHE NO MUNDO DA TECNOLOGIA!</h1>
+            </div>
+            <img id="imagem-tablet" src="./image/tablet.png" alt="tablet" />
+            <div className="oferta-dois">
+              <h3>EM OFERTAS DE ATÉ:</h3>
+              <h1>10% OFF!</h1>
+              <button>INSIRA O CUPOM: DIGITAL10</button>
+            </div>
+          </div>
+        </section>
+      </main>
     )
-}
+  }
+  
